@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body class="body">
+    <h1 class="heading"><b>MY CALCULATOR</b></h1>
+    <div class="calc">
+        <div>
+            <input type="text" size="37"   id="inp">
+        </div>
+        <div>
+            <button class="btn btn-success clear" id="clear" onclick="clearinp()">Clear</button>
+        </div>
+        <div class="cal">
+            <button class="btn btn-success first" onclick="getnumber('7')">7</button>
+            <button class="btn btn-success first" onclick="getnumber('8')">8</button>
+            <button class="btn btn-success first" onclick="getnumber('9')">9</button>
+            <button class="btn btn-success first" onclick="getnumber('+')">+</button>
+
+        </div>
+        <div class="cal">
+            <button class="btn btn-success first" onclick="getnumber('4')">4</button>
+            <button class="btn btn-success first" onclick="getnumber('5')">5</button>
+            <button class="btn btn-success first" onclick="getnumber('6')">6</button>
+            <button class="btn btn-success first" onclick="getnumber('*')">X</button>
+
+        </div>
+        <div class="cal">
+            <button class="btn btn-success first" onclick="getnumber('1')">1</button>
+            <button class="btn btn-success first" onclick="getnumber('2')">2</button>
+            <button class="btn btn-success first" onclick="getnumber('3')">3</button>
+            <button class="btn btn-success first" onclick="getnumber('-')">-</button>
+
+        </div>
+        <div class="cal">
+            <button class="btn btn-success second" onclick="getnumber('0')">0</button>
+            <button class="btn btn-success second" onclick="answer()">=</button>
+            <button class="btn btn-success third" onclick="getnumber('/')">÷</button>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>

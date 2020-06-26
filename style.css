@@ -1,0 +1,51 @@
+.body{
+    background-color: rgb(190, 190, 190);
+}
+
+.heading{
+    margin-left: 38%;
+    margin-top: 100px;
+    color: black;
+    text-decoration: underline black;
+}
+
+.calc{
+    margin-left: 38%;
+    margin-top: 5%;
+    width: 316px;
+    border: 2px solid gray;
+    height: 295px;
+    background-color: rgb(172, 172, 172);
+}
+#inp{
+    margin-top: 2px;
+    margin-left: 5px;
+    height: 40px;
+    border: 2px solid gray;
+    background-color: lightgrey
+    
+}
+.clear{
+    margin-top: 15px;
+    width: 295px;
+    border-radius: 0px;
+    margin-left: 8px;
+    color: black;
+
+}
+.cal{
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.first{
+    width: 70px;
+    height: 45px;
+}
+.second{
+    height: 45px;
+    width: 107px;
+}
+.third{
+    width: 70px;
+    height: 45px;
+}
